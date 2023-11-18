@@ -4,7 +4,13 @@
 
 this project is a Student Management simple Crud Api using Json file as storage <br/>
 the aim of the project is to learn how to manipulate data on a json file and how <br/>
-to use the file system module in node.js to read and write to files
+to use the file system module in node.js to read and write to files <br/>
+* The project is a rest APi with various routes
+  - get /students  => to get all the students
+  - get /students/:id => to get a student with a specific id
+  - post /students => to add a new student information through req.body {name: "newName", age: 'newAge"}
+  - put /students/:id  => to update student information with a specific id add a req.body {name: "newName", age: 'newAge"}
+  - delete /students/:id => to delete a student with a specific id
 
 ## How to Install and Run the Project
 
